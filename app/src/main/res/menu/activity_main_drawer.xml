@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<group android:checkableBehavior="single">
+    <item
+        android:id="@+id/acc"
+        android:icon="@drawable/ic_baseline_account"
+        android:title="@string/account"/>
+    <item
+        android:id="@+id/mess"
+        android:icon="@drawable/ic_baseline_message"
+        android:title="@string/messages"/>
+
+    <item
+        android:id="@+id/images"
+        android:icon="@drawable/ic_baseline_photo_camera"
+        android:title="@string/photos"/>
+</group>
+    <item
+        android:id="@+id/chat"
+        android:icon="@drawable/ic_baseline_send"
+        android:title="@string/communicate"/>
+    <item
+        android:id="@+id/sh"
+        android:icon="@drawable/ic_baseline_share"
+        android:title="@string/share"/>
+    <item
+        android:id="@+id/hom"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="@string/home"/>
+
+</menu>
